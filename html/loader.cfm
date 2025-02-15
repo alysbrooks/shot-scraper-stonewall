@@ -1,0 +1,1 @@
+<html><head><title>Error</title></head><body><center><table width="500" summary=""><tbody><tr><td><font face="Verdana,Arial" size="2"><strong>Error:</strong><br><br>Form fields needed by the requested CommonSpot module were not passed.</font></td></tr></tbody></table></center></body></html>
