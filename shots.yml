@@ -1,5 +1,7 @@
  - url: https://www.nps.gov/ston/index.htm
    output: screenshots/ston/index.png
+ - url: https://www.nps.gov/ston/index.htm
+   output: html/ston/index.htm
  - url: https://www.nps.gov/ston/learn/photosmultimedia/interpretative-flags.htm
    output: screenshots/ston/learn/photosmultimedia/interpretative-flags.png
  - url: https://www.nps.gov/articles/pride-guide.htm
