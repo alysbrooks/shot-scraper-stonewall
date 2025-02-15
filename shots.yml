@@ -17,4 +17,132 @@
  - url: https://www.nps.gov/ston/learn/management.htm
    output: screenshots/ston/learn/management.png
  - url: https://www.nps.gov/ston/siteindex.htm
-   output: /ston/siteindex.png
+   output: screenshots/ston/siteindex.png
+ - url: https://www.nps.gov/ston/assemblymessage6-5-20.htm
+   output: screenshots/ston/assemblymessage6-5-20.png
+ - url: https://www.nps.gov/ston/contacts.htm
+   output: screenshots/ston/contacts.png
+ - url: https://www.nps.gov/ston/faqs.htm
+   output: screenshots/ston/faqs.png
+ - url: https://www.nps.gov/ston/foundation-document.htm
+   output: screenshots/ston/foundation-document.png
+ - url: https://www.nps.gov/ston/getinvolved/
+   output: screenshots/ston/getinvolved.png
+ - url: https://www.nps.gov/ston/getinvolved/2016.htm
+   output: screenshots/ston/getinvolved/2016.png
+ - url: https://www.nps.gov/ston/getinvolved/2021-year-in-review.htm
+   output: screenshots/ston/getinvolved/2021-year-in-review.png
+ - url: https://www.nps.gov/ston/getinvolved/index.htm
+   output: screenshots/ston/getinvolved/index.png
+ - url: https://www.nps.gov/ston/getinvolved/partners.htm
+   output: screenshots/ston/getinvolved/partners.png
+ - url: https://www.nps.gov/ston/getinvolved/planprocess.htm
+   output: screenshots/ston/getinvolved/planprocess.png
+ - url: https://www.nps.gov/ston/getinvolved/volunteer.htm
+   output: screenshots/ston/getinvolved/volunteer.png
+ - url: https://www.nps.gov/ston/index.htm?cid=NYCEM_Mem_TourismRecovery_20220623
+   output: screenshots/ston/index.png
+ - url: https://www.nps.gov/ston/learn/bookstore.htm
+   output: screenshots/ston/learn/bookstore.png
+ - url: https://www.nps.gov/ston/learn/education-teachers.htm
+   output: screenshots/ston/learn/education-teachers.png
+ - url: https://www.nps.gov/ston/learn/education/
+   output: screenshots/ston/learn/education.png
+ - url: https://www.nps.gov/ston/learn/education/index.htm
+   output: screenshots/ston/learn/education/index.png
+ - url: https://www.nps.gov/ston/learn/education/loader.cfm
+   output: screenshots/ston/learn/education/loader.png
+ - url: https://www.nps.gov/ston/learn/education/new-index.htm
+   output: screenshots/ston/learn/education/new-index.png
+ - url: https://www.nps.gov/ston/learn/educator-resources.htm
+   output: screenshots/ston/learn/educator-resources.png
+ - url: https://www.nps.gov/ston/learn/historyculture.htm
+   output: screenshots/ston/learn/historyculture.png
+ - url: https://www.nps.gov/ston/learn/historyculture/gaa.htm
+   output: screenshots/ston/learn/historyculture/gaa.png
+ - url: https://www.nps.gov/ston/learn/historyculture/julius.htm
+   output: screenshots/ston/learn/historyculture/julius.png
+ - url: https://www.nps.gov/ston/learn/historyculture/lionshead.htm
+   output: screenshots/ston/learn/historyculture/lionshead.png
+ - url: https://www.nps.gov/ston/learn/historyculture/loader.cfm
+   output: screenshots/ston/learn/historyculture/loader.png
+ - url: https://www.nps.gov/ston/learn/historyculture/macdougalstreet.htm
+   output: screenshots/ston/learn/historyculture/macdougalstreet.png
+ - url: https://www.nps.gov/ston/learn/historyculture/oscarwilde.htm
+   output: screenshots/ston/learn/historyculture/oscarwilde.png
+ - url: https://www.nps.gov/ston/learn/historyculture/portobello.htm
+   output: screenshots/ston/learn/historyculture/portobello.png
+ - url: https://www.nps.gov/ston/learn/index.htm
+   output: screenshots/ston/learn/index.png
+ - url: https://www.nps.gov/ston/learn/kidsyouth/activities-for-kids.htm
+   output: screenshots/ston/learn/kidsyouth/activities-for-kids.png
+ - url: https://www.nps.gov/ston/learn/kidsyouth/index.htm
+   output: screenshots/ston/learn/kidsyouth/index.png
+ - url: https://www.nps.gov/ston/learn/kidsyouth/junior-ranger.htm
+   output: screenshots/ston/learn/kidsyouth/junior-ranger.png
+ - url: https://www.nps.gov/ston/learn/kidsyouth/loader.cfm
+   output: screenshots/ston/learn/kidsyouth/loader.png
+ - url: https://www.nps.gov/ston/learn/lawsandpolicies.htm
+   output: screenshots/ston/learn/lawsandpolicies.png
+ - url: https://www.nps.gov/ston/learn/management.htm
+   output: screenshots/ston/learn/management.png
+ - url: https://www.nps.gov/ston/learn/news.htm
+   output: screenshots/ston/learn/news.png
+ - url: https://www.nps.gov/STON/learn/news/index.htm
+   output: screenshots/STON/learn/news/index.png
+ - url: https://www.nps.gov/ston/learn/photosmultimedia/index.htm
+   output: screenshots/ston/learn/photosmultimedia/index.png
+ - url: https://www.nps.gov/ston/learn/photosmultimedia/interpretative-flags.htm
+   output: screenshots/ston/learn/photosmultimedia/interpretative-flags.png
+ - url: https://www.nps.gov/ston/learn/photosmultimedia/loader.cfm
+   output: screenshots/ston/learn/photosmultimedia/loader.png
+ - url: https://www.nps.gov/ston/learn/photosmultimedia/photogallery.htm
+   output: screenshots/ston/learn/photosmultimedia/photogallery.png
+ - url: https://www.nps.gov/ston/learn/photosmultimedia/ranger-programs-and-special-events.htm
+   output: screenshots/ston/learn/photosmultimedia/ranger-programs-and-special-events.png
+ - url: https://www.nps.gov/ston/learn/photosmultimedia/stonewall-celebrates-its-5th-anniversary.htm
+   output: screenshots/ston/learn/photosmultimedia/stonewall-celebrates-its-5th-anniversary.png
+ - url: https://www.nps.gov/ston/learn/photosmultimedia/virtual-fence-exhibit.htm
+   output: screenshots/ston/learn/photosmultimedia/virtual-fence-exhibit.png
+ - url: https://www.nps.gov/ston/learn/photosmultimedia/virtual-ranger-programs.htm
+   output: screenshots/ston/learn/photosmultimedia/virtual-ranger-programs.png
+ - url: https://www.nps.gov/ston/learn/photosmultimedia/we-are-stonewall-arts-festival.htm
+   output: screenshots/ston/learn/photosmultimedia/we-are-stonewall-arts-festival.png
+ - url: https://www.nps.gov/ston/loader.cfm
+   output: screenshots/ston/loader.png
+ - url: https://www.nps.gov/ston/planyourvisit/
+   output: screenshots/ston/planyourvisit.png
+ - url: https://www.nps.gov/ston/planyourvisit/accessibility.htm
+   output: screenshots/ston/planyourvisit/accessibility.png
+ - url: https://www.nps.gov/ston/planyourvisit/basicinfo.htm
+   output: screenshots/ston/planyourvisit/basicinfo.png
+ - url: https://www.nps.gov/ston/planyourvisit/directions.htm
+   output: screenshots/ston/planyourvisit/directions.png
+ - url: https://www.nps.gov/ston/planyourvisit/education-programs.htm
+   output: screenshots/ston/planyourvisit/education-programs.png
+ - url: https://www.nps.gov/ston/planyourvisit/fees.htm
+   output: screenshots/ston/planyourvisit/fees.png
+ - url: https://www.nps.gov/ston/planyourvisit/guidedtours.htm
+   output: screenshots/ston/planyourvisit/guidedtours.png
+ - url: https://www.nps.gov/ston/planyourvisit/hours.htm
+   output: screenshots/ston/planyourvisit/hours.png
+ - url: https://www.nps.gov/ston/planyourvisit/index.htm
+   output: screenshots/ston/planyourvisit/index.png
+ - url: https://www.nps.gov/ston/planyourvisit/index.htm?csModule=utilities/handle-link&thelink=
+   output: screenshots/ston/planyourvisit/index.png
+ - url: https://www.nps.gov/ston/planyourvisit/maps.htm?csModule=utilities/handle-link&thelink=
+   output: screenshots/ston/planyourvisit/maps.png
+ - url: https://www.nps.gov/ston/planyourvisit/passportprogram.htm
+   output: screenshots/ston/planyourvisit/passportprogram.png
+ - url: https://www.nps.gov/ston/planyourvisit/permits.htm
+   output: screenshots/ston/planyourvisit/permits.png
+ - url: https://www.nps.gov/ston/planyourvisit/permitsandreservations.htm
+   output: screenshots/ston/planyourvisit/permitsandreservations.png
+ - url: https://www.nps.gov/ston/planyourvisit/safety.htm
+   output: screenshots/ston/planyourvisit/safety.png
+ - url: https://www.nps.gov/ston/planyourvisit/things2do.htm
+   output: screenshots/ston/planyourvisit/things2do.png
+ - url: https://www.nps.gov/ston/siteindex.htm
+   output: screenshots/ston/siteindex.png
+ - url: https://www.nps.gov/ston/stonewall-celebrates-its-5th-anniversary.htm
+   output: screenshots/ston/stonewall-celebrates-its-5th-anniversary.png
