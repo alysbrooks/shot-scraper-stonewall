@@ -78,3 +78,12 @@ jobs:
         name: trace.har
         path: trace.har
 
+    - name: Generate Image Diffs
+      run: | 
+        git status -s --untracked-files=no --porcelain | sed "s/^ M //" | grep ".png" | xargs python3 image_diff.py
+    - name: Upload Image Diffs
+      uses: actions/upload-artifact@v4
+      with:
+        name: image_diffs
+        path: |
+          diffs/**.png
