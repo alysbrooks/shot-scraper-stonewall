@@ -58,10 +58,10 @@ jobs:
     - name: Save HTML
       run: |
         shot-scraper html https://www.nps.gov/ston/index.htm -o html/ston/index.htm
-        shot-scraper html https://www.nps.gov/ston/learn/photosmultimedia/interpretative-flags.htm -o screenshots/ston/learn/photosmultimedia/interpretative-flags.htm
-        shot-scraper html https://www.nps.gov/articles/pride-guide.htm -o screenshots/articles/pride-guide.htm
-        shot-scraper html https://www.nps.gov/subjects/tellingallamericansstories/lgbtqresources.htm -o screenshots/subjects/tellingallamericansstories/lgbtqresources.htm
-        shot-scraper html https://www.nps.gov/ston/learn/education/new-index.htm -o screenshots/ston/learn/education/new-index.htm
+        shot-scraper html https://www.nps.gov/ston/learn/photosmultimedia/interpretative-flags.htm -o html/ston/learn/photosmultimedia/interpretative-flags.htm
+        shot-scraper html https://www.nps.gov/articles/pride-guide.htm -o html/articles/pride-guide.htm
+        shot-scraper html https://www.nps.gov/subjects/tellingallamericansstories/lgbtqresources.htm -o html/subjects/tellingallamericansstories/lgbtqresources.htm
+        shot-scraper html https://www.nps.gov/ston/learn/education/new-index.htm -o html/ston/learn/education/new-index.htm
         
     - name: Commit and push
       run: |-
