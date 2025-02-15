@@ -72,3 +72,9 @@ jobs:
         git commit -m "${timestamp}" || exit 0
         git pull --rebase
         git push
+    - name: Upload HAR
+      uses: actions/upload-artifact@v4
+      with:
+        name: trace.har
+        path: trace.har
+
