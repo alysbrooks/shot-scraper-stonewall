@@ -8,3 +8,5 @@
    output: screenshots/subjects/tellingallamericansstories/lgbtqresources.png
  - url: https://www.nps.gov/ston/learn/education/new-index.htm
    output: screenshots/ston/learn/education/new-index.png
+ - url: http://www.nps.gov/ston/learn/historyculture/recommended-reading-list.htm
+   output: screenshots/ston/learn/historyculture/recommended-reading-list.png

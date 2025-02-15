@@ -62,6 +62,7 @@ jobs:
         shot-scraper html https://www.nps.gov/articles/pride-guide.htm -o html/articles/pride-guide.htm
         shot-scraper html https://www.nps.gov/subjects/tellingallamericansstories/lgbtqresources.htm -o html/subjects/tellingallamericansstories/lgbtqresources.htm
         shot-scraper html https://www.nps.gov/ston/learn/education/new-index.htm -o html/ston/learn/education/new-index.htm
+        shot-scraper html http://www.nps.gov/ston/learn/historyculture/recommended-reading-list.htm -o html/ston/learn/historyculture/recommended-reading-list.htm
         
     - name: Commit and push
       run: |-
