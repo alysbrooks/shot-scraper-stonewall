@@ -6,3 +6,5 @@
    output: screenshots/articles/pride-guide.png
  - url: https://www.nps.gov/subjects/tellingallamericansstories/lgbtqresources.htm
    output: screenshots/subjects/tellingallamericansstories/lgbtqresources.png
+ - url: https://www.nps.gov/ston/learn/education/new-index.htm
+   output: screenshots/ston/learn/education/new-index.png
