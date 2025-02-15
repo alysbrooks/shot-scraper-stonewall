@@ -10,3 +10,11 @@
    output: screenshots/ston/learn/education/new-index.png
  - url: http://www.nps.gov/ston/learn/historyculture/recommended-reading-list.htm
    output: screenshots/ston/learn/historyculture/recommended-reading-list.png
+ - url: https://www.nps.gov/ston/learn/news.htm
+   output: screenshots/ston/learn/news.png
+ - url: https://www.nps.gov/ston/learn/lawsandpolicies.htm
+   output: screenshots/ston/learn/lawsandpolicies.png
+ - url: https://www.nps.gov/ston/learn/management.htm
+   output: screenshots/ston/learn/management.png
+ - url: https://www.nps.gov/ston/siteindex.htm
+   output: /ston/siteindex.png
