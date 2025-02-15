@@ -54,7 +54,7 @@ jobs:
           }
     - name: Take shots
       run: |
-        shot-scraper multi shots.yml
+        shot-scraper multi shots.yml --har-file trace.zip
     - name: Save HTML
       run: |
         chmod +x shot_scraper_html.sh
@@ -72,8 +72,8 @@ jobs:
     - name: Upload HAR
       uses: actions/upload-artifact@v4
       with:
-        name: trace.har
-        path: trace.har
+        name: trace.zip
+        path: trace.zip
 
     - name: Generate Image Diffs
       run: | 
