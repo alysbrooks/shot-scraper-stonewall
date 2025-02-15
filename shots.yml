@@ -98,16 +98,16 @@
    output: screenshots/ston/learn/photosmultimedia/loader.png
  - url: https://www.nps.gov/ston/learn/photosmultimedia/photogallery.htm
    output: screenshots/ston/learn/photosmultimedia/photogallery.png
- - url: https://www.nps.gov/ston/learn/photosmultimedia/ranger-programs-and-special-events.htm
-   output: screenshots/ston/learn/photosmultimedia/ranger-programs-and-special-events.png
- - url: https://www.nps.gov/ston/learn/photosmultimedia/stonewall-celebrates-its-5th-anniversary.htm
-   output: screenshots/ston/learn/photosmultimedia/stonewall-celebrates-its-5th-anniversary.png
- - url: https://www.nps.gov/ston/learn/photosmultimedia/virtual-fence-exhibit.htm
-   output: screenshots/ston/learn/photosmultimedia/virtual-fence-exhibit.png
- - url: https://www.nps.gov/ston/learn/photosmultimedia/virtual-ranger-programs.htm
-   output: screenshots/ston/learn/photosmultimedia/virtual-ranger-programs.png
- - url: https://www.nps.gov/ston/learn/photosmultimedia/we-are-stonewall-arts-festival.htm
-   output: screenshots/ston/learn/photosmultimedia/we-are-stonewall-arts-festival.png
+#  - url: https://www.nps.gov/ston/learn/photosmultimedia/ranger-programs-and-special-events.htm
+#    output: screenshots/ston/learn/photosmultimedia/ranger-programs-and-special-events.png
+#  - url: https://www.nps.gov/ston/learn/photosmultimedia/stonewall-celebrates-its-5th-anniversary.htm
+#    output: screenshots/ston/learn/photosmultimedia/stonewall-celebrates-its-5th-anniversary.png
+#  - url: https://www.nps.gov/ston/learn/photosmultimedia/virtual-fence-exhibit.htm
+#    output: screenshots/ston/learn/photosmultimedia/virtual-fence-exhibit.png
+#  - url: https://www.nps.gov/ston/learn/photosmultimedia/virtual-ranger-programs.htm
+#    output: screenshots/ston/learn/photosmultimedia/virtual-ranger-programs.png
+#  - url: https://www.nps.gov/ston/learn/photosmultimedia/we-are-stonewall-arts-festival.htm
+#    output: screenshots/ston/learn/photosmultimedia/we-are-stonewall-arts-festival.png
  - url: https://www.nps.gov/ston/loader.cfm
    output: screenshots/ston/loader.png
  - url: https://www.nps.gov/ston/planyourvisit/
@@ -128,9 +128,7 @@
    output: screenshots/ston/planyourvisit/hours.png
  - url: https://www.nps.gov/ston/planyourvisit/index.htm
    output: screenshots/ston/planyourvisit/index.png
- - url: https://www.nps.gov/ston/planyourvisit/index.htm?csModule=utilities/handle-link&thelink=
-   output: screenshots/ston/planyourvisit/index.png
- - url: https://www.nps.gov/ston/planyourvisit/maps.htm?csModule=utilities/handle-link&thelink=
+ - url: https://www.nps.gov/ston/planyourvisit/maps.htm
    output: screenshots/ston/planyourvisit/maps.png
  - url: https://www.nps.gov/ston/planyourvisit/passportprogram.htm
    output: screenshots/ston/planyourvisit/passportprogram.png
@@ -144,5 +142,5 @@
    output: screenshots/ston/planyourvisit/things2do.png
  - url: https://www.nps.gov/ston/siteindex.htm
    output: screenshots/ston/siteindex.png
- - url: https://www.nps.gov/ston/stonewall-celebrates-its-5th-anniversary.htm
-   output: screenshots/ston/stonewall-celebrates-its-5th-anniversary.png
+#  - url: https://www.nps.gov/ston/stonewall-celebrates-its-5th-anniversary.htm
+#    output: screenshots/ston/stonewall-celebrates-its-5th-anniversary.png
