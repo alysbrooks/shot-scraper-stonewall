@@ -4,7 +4,7 @@ Made using using [shot-scraper](https://github.com/simonw/shot-scraper) and [sho
 
 ## Motivation ##
 
-The Trump administration has removed references to trans people from the Stonewall National Monument (although some references remain here and there at time of writing, February 15). This is despite trans people's role in the [protests](https://www.reuters.com/graphics/USA-LGBT-STONEWALL/010092NF3GR/) and movement.
+The Trump administration has removed references to trans people from the Stonewall National Monument (although some references remain here and there at time of writing, February 15). This is despite trans people's role in the [protests](https://www.reuters.com/graphics/USA-LGBT-STONEWALL/010092NF3GR/) and [movement](https://www.si.edu/stories/marsha-johnson-sylvia-rivera-and-history-pride-month).
 
 News coverage:
 
