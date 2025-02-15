@@ -54,7 +54,7 @@ jobs:
           }
     - name: Take shots
       run: |
-        shot-scraper multi shots.yml --har-file trace.har
+        shot-scraper multi shots.yml
     - name: Save HTML
       run: |
         chmod +x shot_scraper_html.sh
