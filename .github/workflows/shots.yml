@@ -60,6 +60,16 @@ jobs:
         chmod +x shot_scraper_html.sh
         ./shot_scraper_html.sh
         
+
+    - name: Generate Image Diffs
+      run: | 
+        git status -s --untracked-files=no --porcelain | sed "s/^ M //" | grep ".png" | xargs python3 image_diff.py
+    - name: Upload Image Diffs
+      uses: actions/upload-artifact@v4
+      with:
+        name: image_diffs
+        path: |
+          diffs/**.png
     - name: Commit and push
       run: |-
         git config user.name "Automated"
@@ -74,13 +84,3 @@ jobs:
       with:
         name: trace.zip
         path: trace.zip
-
-    - name: Generate Image Diffs
-      run: | 
-        git status -s --untracked-files=no --porcelain | sed "s/^ M //" | grep ".png" | xargs python3 image_diff.py
-    - name: Upload Image Diffs
-      uses: actions/upload-artifact@v4
-      with:
-        name: image_diffs
-        path: |
-          diffs/**.png
