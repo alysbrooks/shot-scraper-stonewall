@@ -37,6 +37,10 @@ jobs:
     - name: Install Playwright dependencies
       run: |
         shot-scraper install
+    - name: Install uprightdiff
+      run: |
+        apt-get update -y
+        apt-get install -y uprightdiff
     - uses: actions/github-script@v7
       name: Create shots.yml if missing on first run
       with:
