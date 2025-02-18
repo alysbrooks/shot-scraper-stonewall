@@ -69,6 +69,7 @@ jobs:
       run: | 
         mkdir .head
         tree -L 2 -d
+        git worktree add .head HEAD
         git status -s --untracked-files=no --porcelain | sed "s/^ M //" | grep ".png"
         git status -s --untracked-files=no --porcelain | sed "s/^ M //" | grep ".png" | xargs -L 1 python3 image_diff.py
     - name: Upload Image Diffs
