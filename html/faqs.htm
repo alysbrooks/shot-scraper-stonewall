@@ -20,9 +20,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="/common/commonspot/templates/assets/js/app.early.min.js"></script>
 		<link href="/common/commonspot/templates/assets/css/main.min.css" media="screen, print" rel="stylesheet">
-		<link href="/common/commonspot/templates/assets/ctExtraStyles.css" media="screen, print" rel="stylesheet">
 		<link href="//fonts.googleapis.com/css?family=Open+Sans:700,600,400|Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css">
-		<link href="/common/commonspot/templates/assets/css/redesign.css" media="screen, print" rel="stylesheet">
 		<style>
 			table#cs_idLayout2,
 			table#cs_idLayout2 > tbody,
@@ -152,48 +150,25 @@
 			<div class="container">
 				<div class="ColumnGrid">
 					<div class="ColumnMain">
-						<!-- /// Start Random Images /// -->
-						<!-- /// Added by Dan 11/24/14 /// -->
-						<div align="center">
-							<script language="JavaScript">
-							var domain;
-
-							function random_imglink(){
-
-								var images = []; // [] means new array - arrays index from 0 in JS
-
-								//specify random images below. You can have as many as you wish
-								images[0] = []; // associative array (http://www.w3schools.com/js/js_arrays.asp)
-								images[0].url = "/common/commonspot/templates/images/graphics/404/01.jpg";
-								images[0].alt = "404 missing page error image with woods at night and text that reads sorry we can't find that page but here are some lovely northern lights to enjoy please try the search tool to find what you need";
-								images[1] = [];
-								images[1].url = "/common/commonspot/templates/images/graphics/404/02.jpg";
-								images[1].alt = "404 missing page error image with mountains and text that reads sorry we can't find this page but how about a john muir quote keep close to nature's heart and break clear once in a while and climb a mountain or spend a week in the woods wash your spirit clean please try the search tool to find what you need";
-								images[2] = [];
-								images[2].url = "/common/commonspot/templates/images/graphics/404/03.jpg";
-								images[2].alt = "404 missing page error image with a squirrel and text that reads we are looking for it but in the meantime you may want to use the search tool";
-								images[3] = [];
-								images[3].url = "/common/commonspot/templates/images/graphics/404/04.jpg";
-								images[3].alt = "404 missing page error image with a grizzly bear drooling and text that reads please bear with us we cannot seem to find that page try using the search tool to find what you need";
-								images[4] = [];
-								images[4].url = "/common/commonspot/templates/images/graphics/404/05.jpg";
-								images[4].alt = "404 missing page error image with trees and a trail and text that reads sorry about that we must've led you down the wrong fork in the trail use the back button on your browser or try the search bar at upper right to find what you need";
-								images[5] = [];
-								images[5].url = "/common/commonspot/templates/images/graphics/404/06.jpg";
-								images[5].alt = "404 missing page error image with a skunk and text that reads well that stinks we can't find that page please try using the search tool to find what you need";
-
-								var ry = Math.floor(Math.random() * images.length);
-
-								document.write('<img style="max-width:100%" src="'+images[ry].url+'" alt="'+images[ry].alt+'" border="0" />');
-
-							}
-
-							random_imglink();
-
-							</script><img style="max-width:100%" src="/common/commonspot/templates/images/graphics/404/05.jpg" alt="404 missing page error image with trees and a trail and text that reads sorry about that we must've led you down the wrong fork in the trail use the back button on your browser or try the search bar at upper right to find what you need" border="0">
+						<div class="container">
+							<div class="my-5" style="max-width: 64ex">
+								<h1>Page not found</h1>
+								<p class="lead">
+									We're sorry, we can't find the page you're looking for. The site
+									administrator may have removed it, changed its location, or made
+									it otherwise unavailable.
+								</p>
+								<p>
+									If you typed the URL directly, check your spelling and
+									capitalization. Our URLs look like this:
+									<strong>&lt;nps.gov/example-one/&gt;</strong>.
+								</p>
+								<p class="my-5">
+									<a href="/" class="btn btn-primary">Visit homepage</a>
+								</p>
+								<p class="text-muted"><strong>Error code:</strong> 404</p>
+							</div>
 						</div>
-						<!-- // End Random Images /// -->
-						<!-- //////////////////////// -->
 					</div><!-- end ColumnMain -->
 				</div><!-- end ColumnGrid -->
 			</div><!-- end container -->
