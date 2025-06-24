@@ -66,7 +66,7 @@
 <script type="text/javascript" src="/common/commonspot/templates/js/libs/dd_belatedpng.js"></script>
 <script>DD_belatedPNG.fix('img, .png_bg'); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
 <![endif]-->
-<link rel="stylesheet" href="/commonspot/commonspot.css" type="text/css" id="cs_maincss"> <link type="text/css" href="*/commonspot/dashboard/css/buttons.css" rel="stylesheet"><link type="text/css" href="*/commonspot/javascript/lightbox/lightbox.css" rel="stylesheet"><script src="*/commonspot/javascript/util.js"></script><script src="*/commonspot/javascript/lightbox/lightbox.js"></script><script type="text/javascript" src="/common/commonspot/templates/js/foresee/foresee-surveydef.js?build=3"></script></head><body lang="en" class="CS_Document"><a name="__topdoc__"></a><script src="/commonspot/pagemode/always-include-common.js" type="text/javascript"></script><script src="/commonspot/pagemode/always-include-moz.js" type="text/javascript"></script>
+<link rel="stylesheet" href="/commonspot/commonspot.css" type="text/css" id="cs_maincss"> <link type="text/css" href="*/commonspot/dashboard/css/buttons.css" rel="stylesheet"><link type="text/css" href="*/commonspot/javascript/lightbox/lightbox.css" rel="stylesheet"><script src="*/commonspot/javascript/util.js"></script><script src="*/commonspot/javascript/lightbox/lightbox.js"></script><script type="text/javascript" src="/common/commonspot/templates/js/foresee/foresee-surveydef.js?build=3"></script><link rel="stylesheet" type="text/css" href="/common/commonspot/templates/js/foresee/foresee-dhtml.css?build=3"></head><body lang="en" class="CS_Document"><a name="__topdoc__"></a><script src="/commonspot/pagemode/always-include-common.js" type="text/javascript"></script><script src="/commonspot/pagemode/always-include-moz.js" type="text/javascript"></script>
     
     <div class="skip visuallyhidden">
         <h4>Skip within this page:</h4>
@@ -224,7 +224,7 @@
                         </ul>
                     </li>
                      <li class="addthis_toolbox">
-                        <a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=xa-4ddc04290804db6a" class="addthis_button_compact"></a>
+                        <a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=xa-4ddc04290804db6a" class="addthis_button_compact" data-bs-toggle="modal" data-bs-target="#myModal" data-toggle="modal" data-target="#myModal" data-remote="/common/commonspot/customcf/modals/modal_intercept.cfm?targetURL=http%3A%2F%2Fwww.addthis.com%2Fbookmark.php%3Fv%3D250%26pubid%3Dxa-4ddc04290804db6a"></a>
                     </li>
                 </ul><!--! end of #utils -->
 				
@@ -248,7 +248,7 @@
 		<div class="text-content-size">
 			<h1 class="page-title">Temporary Server Error (503)</h1>
 		</div>
-<div id="cs_control_2" class="cs_control CS_Element_Layout"><table id="cs_idLayout2" cellpadding="0" cellspacing="0" class="CS_Layout_Table" width="100%" summary=""><tbody><tr class="CS_Layout_TR"><td id="cs_idCell2x1x1" class="CS_Layout_TD">
+<div id="cs_control_2" class="cs_control CS_Element_Layout"><table id="cs_idLayout2" cellpadding="0" cellspacing="0" class="CS_Layout_Table" width="100%" summary="" role="presentation"><tbody><tr class="CS_Layout_TR"><td id="cs_idCell2x1x1" class="CS_Layout_TD">
 <div id="cs_control_360160" class="cs_control CS_Element_Custom"><!--LARGE IMAGE module-->
 			
 		
@@ -515,12 +515,12 @@
             <li><a href="/contacts.htm">Contact Us</a></li>
         </ul>
         <ul class="social">
-            <li class="youtube"><a href="http://www.youtube.com/nationalparkservice">YouTube</a></li>
-            <li class="itunes"><a href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewArtistLegacy?cc=us&amp;id=216751324">iTunes</a></li>
+            <li class="youtube"><a href="http://www.youtube.com/nationalparkservice" data-bs-toggle="modal" data-bs-target="#myModal" data-toggle="modal" data-target="#myModal" data-remote="/common/commonspot/customcf/modals/modal_intercept.cfm?targetURL=http%3A%2F%2Fwww.youtube.com%2Fnationalparkservice">YouTube</a></li>
+            <li class="itunes"><a href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewArtistLegacy?cc=us&amp;id=216751324" data-bs-toggle="modal" data-bs-target="#myModal" data-toggle="modal" data-target="#myModal" data-remote="/common/commonspot/customcf/modals/modal_intercept.cfm?targetURL=http%3A%2F%2Fitunes.apple.com%2FWebObjects%2FMZStore.woa%2Fwa%2FviewArtistLegacy%3Fcc%3Dus%26id%3D216751324">iTunes</a></li>
         </ul>
         <ul class="social">
-            <li class="facebook"><a href="http://www.facebook.com/nationalparkservice">Facebook</a></li>
-            <li class="twitter"><a href="http://twitter.com/natlparkservice">Twitter</a></li>
+            <li class="facebook"><a href="http://www.facebook.com/nationalparkservice" data-bs-toggle="modal" data-bs-target="#myModal" data-toggle="modal" data-target="#myModal" data-remote="/common/commonspot/customcf/modals/modal_intercept.cfm?targetURL=http%3A%2F%2Fwww.facebook.com%2Fnationalparkservice">Facebook</a></li>
+            <li class="twitter"><a href="http://twitter.com/natlparkservice" data-bs-toggle="modal" data-bs-target="#myModal" data-toggle="modal" data-target="#myModal" data-remote="/common/commonspot/customcf/modals/modal_intercept.cfm?targetURL=http%3A%2F%2Ftwitter.com%2Fnatlparkservice">Twitter</a></li>
         </ul>
         <div class="updated">
             <p>Last Updated: 04/13/2012</p>
@@ -563,4 +563,4 @@
                     //-->
                     </script>
                 </div><div style="display:block; clear:left; padding:0px; font-family:Verdana,Arial; font-size:10px; color:gray;"></div>
-</body></html>
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" aria-hidden="true" aria-labelledby="cboxTitle" aria-describedby="cboxCurrent" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious" aria-label="previous" aria-hidden="true">previous</button><button type="button" id="cboxNext" aria-label="next" aria-hidden="true">next</button><button type="button" id="cboxSlideshow" aria-label="start slideshow" aria-hidden="true">start slideshow</button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div><div id="myModal" class="modal refreshableModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"></div></div></div></div></body></html>
