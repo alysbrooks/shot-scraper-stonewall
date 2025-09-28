@@ -85,7 +85,7 @@
         <div class="search">
             <form method="get" action="/search/index.htm" id="global-search">
                 <label class="visuallyhidden" for="header-query">Search</label>
-                <input type="text" name="query" id="header-query" class="fsrVisible">
+                <input type="text" name="query" id="header-query">
             </form>
             <div id="search-results-container">
                 <div class="top"></div>
@@ -336,7 +336,7 @@
         <div class="search-control one-fifth">
             <form method="get" action="/findapark">
                 <label for="park-query">Find a Park</label>
-                <select id="park-query" class="fsrVisible">
+                <select id="park-query">
                     <option value="">Select a State</option>						 
                     <option value="/state/al/index.htm?program=parks">Alabama</option>						 
                     <option value="/state/ak/index.htm?program=parks">Alaska</option>						 
