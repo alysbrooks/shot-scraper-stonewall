@@ -44,7 +44,6 @@ var jsSiteResourceSettings = {canCombine: false, canMinify: false};
 <!-- override ParkSite from Standard Template-->
 <meta charset="utf-8">
 <link href="/common/commonspot/templates/images/icons/favicon.ico" rel="shortcut icon">
-<meta name="description" content="Foundation Document">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -62,6 +61,7 @@ var jsSiteResourceSettings = {canCombine: false, canMinify: false};
 <![endif]-->
 <!--[if !IE]> -->
 <script src="/common/commonspot/templates/assets/js/app.early.min.js?v=20230112"></script>
+<script src="/common/commonspot/templates/js/uswds/uswds-init.js"></script>
 <link href="/common/commonspot/templates/assets/css/main.min.css?v=20230112" media="screen, print" rel="stylesheet">
 <!-- <![endif]-->
 <link href="//fonts.googleapis.com/css?family=Open+Sans:700,600,400|Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css">
@@ -79,9 +79,9 @@ border-collapse:separate;
 </style>
 <script src="/common/commonspot/templates/js/federated-analytics-uav1.js?ver=true&amp;agency=DOI&amp;subagency=NPS&amp;exts=rtf,odt,ods,odp,brf&amp;dclink=true&amp;enhlink=true" id="_fed_an_ua_tag"></script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L"></script>
 <meta property="og:type" content="website">
+<!-- not view page: /ston/foundation-document.htm -->
 <meta property="og:title" content="Foundation Document - Stonewall National Monument (U.S. National Park Service)">
 <meta property="og:url" content="https://www.nps.gov/ston/foundation-document.htm">
-<meta property="og:description" content="Foundation Document">
 <!-- end (5) CustomHead -->
 <!-- beg (6) TertiaryResources -->
 <!-- end (6) TertiaryResources -->
@@ -157,19 +157,13 @@ secure websites.
 <!--googleon: index-->
 <!--googleoff: index-->
 <div class="GlobalHeader usaGlobalHeader" role="banner">
-<div class="GlobalHeader__Navbar container GlobalHeader__Navbar--Park ">
-<a class="GlobalHeader__Branding link-white" href="/">
+<div class="GlobalHeader__Navbar container">
+<a class="GlobalHeader__Branding me-auto link-white" href="/">
 <img src="/theme/assets/dist/images/branding/logo.png" alt="" width="80" height="106" class="GlobalHeader__Branding__Arrowhead img-fluid">
 <span class="GlobalHeader__Branding__Text">
 National Park Service
 </span>
 </a>
-<div class="GlobalHeader__ParkBranding">
-<a href="" class="GlobalHeader__ParkBranding__Link">
-<span class="GlobalHeader__ParkBranding__Name">Stonewall</span>
-National Monument
-</a>
-</div>
 <a href="#GlobalFooterSearchInput" class="GlobalHeader__FooterSearchLink js-scrollTo link-white">
 <svg class="usa-icon" role="presentation" focusable="false">
 <use href="/theme/assets/vendor/npsds/packages/icons/dist/sprite.svg#search"></use>
@@ -199,8 +193,8 @@ All NPS
 <input type="hidden" name="affiliate" value="nps">
 </form>
 </div>
-<nav id="GlobalNav" class="GlobalNav usaGlobalNav">
-<div id="GlobalNavButtonContainer" class="usaGlobalNavButtonContainer">
+<nav id="GlobalNav" class="GlobalNav">
+<h1 id="GlobalNavButtonContainer" class="usaGlobalNavButtonContainer">
 <button type="button" id="GlobalNav-toggle" class="usa-button usa-button--inverse-fill" data-bs-toggle="collapse" data-bs-target="#GlobalNavCollapse" aria-controls="GlobalNavCollapse" aria-expanded="false" aria-label="Open Menu">
 <span class="GlobalNav__Toggle__Text GlobalNav__Toggle__Text--closed">
 <svg class="usa-icon" role="presentation" focusable="false">
@@ -217,14 +211,14 @@ Close
 <span class="visually-hidden">Menu</span>
 </span>
 </button>
-</div>
+</h1>
 <div id="GlobalNavCollapse" class="collapse">
 <div class="container">
 
 <h2 class="GlobalNav__SectionHeading GlobalNav__SectionHeading--green">
 Explore This Park
 </h2>
-<ul id="GlobalNavListLocal" class="GlobalNav__List"><li class="" style="display: none;"><a class="GlobalNav__Link" href="/ston/index.htm">Park Home</a></li><li class="has-sub"><div class="GlobalNav__SplitButton"><a class="GlobalNav__Link has-sub" href="/ston/planyourvisit/index.htm">Plan Your Visit</a><button type="button" class="GlobalNav__SubmenuToggle" data-bs-toggle="collapse" data-bs-target="#GlobalNavLocal1Item1Sub_741a179c-5bd5-4846-8897-f5362e8d0fe6" aria-expanded="false" aria-controls="GlobalNavLocal1Item1Sub_741a179c-5bd5-4846-8897-f5362e8d0fe6"><span class="visually-hidden">Toggle submenu for Plan Your Visit</span></button></div><ul id="GlobalNavLocal1Item1Sub_741a179c-5bd5-4846-8897-f5362e8d0fe6" class="GlobalNav__Submenu collapse" aria-label="Plan Your Visit submenu"><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/planyourvisit/passportprogram.htm">Passport Program</a></li><li class="has-sub"><div class="GlobalNav__SplitButton"><a class="GlobalNav__Submenu__Link has-sub" href="/ston/planyourvisit/basicinfo.htm">Basic Information</a><button type="button" class="GlobalNav__SubmenuToggle" data-bs-toggle="collapse" data-bs-target="#GlobalNavLocal2Item1Sub_3234ae46-aba4-45eb-b029-bb7917ad4617" aria-expanded="false" aria-controls="GlobalNavLocal2Item1Sub_3234ae46-aba4-45eb-b029-bb7917ad4617"><span class="visually-hidden">Toggle submenu for Basic Information</span></button></div><ul id="GlobalNavLocal2Item1Sub_3234ae46-aba4-45eb-b029-bb7917ad4617" class="GlobalNav__Submenu collapse" aria-label="Basic Information submenu"><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/planyourvisit/permits.htm">Permits</a></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/planyourvisit/fees.htm">Fees &amp; Passes</a></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/planyourvisit/conditions.htm">Current Conditions</a></li></ul></li><li class="has-sub"><div class="GlobalNav__SplitButton"><a class="GlobalNav__Submenu__Link has-sub" href="/ston/planyourvisit/directions.htm">Directions &amp; Transportation</a><button type="button" class="GlobalNav__SubmenuToggle" data-bs-toggle="collapse" data-bs-target="#GlobalNavLocal2Item2Sub_6e85f82e-ea47-4e3a-bc8b-675f870005de" aria-expanded="false" aria-controls="GlobalNavLocal2Item2Sub_6e85f82e-ea47-4e3a-bc8b-675f870005de"><span class="visually-hidden">Toggle submenu for Directions &amp; Transportation</span></button></div><ul id="GlobalNavLocal2Item2Sub_6e85f82e-ea47-4e3a-bc8b-675f870005de" class="GlobalNav__Submenu collapse" aria-label="Directions &amp; Transportation submenu"><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/planyourvisit/maps.htm">Maps</a></li></ul></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/planyourvisit/things2do.htm">Things To Do</a></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/planyourvisit/calendar.htm">Calendar</a></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/planyourvisit/safety.htm">Safety</a></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/planyourvisit/accessibility.htm">Accessibility</a></li></ul></li><li class="has-sub"><div class="GlobalNav__SplitButton"><a class="GlobalNav__Link has-sub" href="/ston/learn/index.htm">Learn About the Park</a><button type="button" class="GlobalNav__SubmenuToggle" data-bs-toggle="collapse" data-bs-target="#GlobalNavLocal1Item2Sub_e52ba4b4-aec0-48c7-9422-99bbfe321648" aria-expanded="false" aria-controls="GlobalNavLocal1Item2Sub_e52ba4b4-aec0-48c7-9422-99bbfe321648"><span class="visually-hidden">Toggle submenu for Learn About the Park</span></button></div><ul id="GlobalNavLocal1Item2Sub_e52ba4b4-aec0-48c7-9422-99bbfe321648" class="GlobalNav__Submenu collapse" aria-label="Learn About the Park submenu"><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/learn/news.htm">News</a></li><li class="has-sub"><div class="GlobalNav__SplitButton"><a class="GlobalNav__Submenu__Link has-sub" href="/ston/learn/photosmultimedia/index.htm">Photos &amp; Multimedia</a><button type="button" class="GlobalNav__SubmenuToggle" data-bs-toggle="collapse" data-bs-target="#GlobalNavLocal2Item1Sub_1d126c07-1730-4d82-886c-6248fb2fa874" aria-expanded="false" aria-controls="GlobalNavLocal2Item1Sub_1d126c07-1730-4d82-886c-6248fb2fa874"><span class="visually-hidden">Toggle submenu for Photos &amp; Multimedia</span></button></div><ul id="GlobalNavLocal2Item1Sub_1d126c07-1730-4d82-886c-6248fb2fa874" class="GlobalNav__Submenu collapse" aria-label="Photos &amp; Multimedia submenu"><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/learn/photosmultimedia/interpretative-flags.htm">Interpretative Flags</a></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/learn/photosmultimedia/virtual-fence-exhibit.htm">Virtual Fence Exhibit</a></li></ul></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/learn/historyculture.htm">History &amp; Culture</a></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/learn/education/new-index.htm">Education</a></li><li class="has-sub"><div class="GlobalNav__SplitButton"><a class="GlobalNav__Submenu__Link has-sub" href="/ston/learn/kidsyouth/index.htm">Kids &amp; Youth</a><button type="button" class="GlobalNav__SubmenuToggle" data-bs-toggle="collapse" data-bs-target="#GlobalNavLocal2Item4Sub_fecbe54c-4991-4a27-a39c-4fae431deb5e" aria-expanded="false" aria-controls="GlobalNavLocal2Item4Sub_fecbe54c-4991-4a27-a39c-4fae431deb5e"><span class="visually-hidden">Toggle submenu for Kids &amp; Youth</span></button></div><ul id="GlobalNavLocal2Item4Sub_fecbe54c-4991-4a27-a39c-4fae431deb5e" class="GlobalNav__Submenu collapse" aria-label="Kids &amp; Youth submenu"><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/learn/kidsyouth/activities-for-kids.htm">Activities For Kids</a></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/learn/kidsyouth/junior-ranger.htm">Junior Ranger</a></li></ul></li><li class="has-sub"><div class="GlobalNav__SplitButton"><a class="GlobalNav__Submenu__Link has-sub" href="/ston/learn/management.htm">Management</a><button type="button" class="GlobalNav__SubmenuToggle" data-bs-toggle="collapse" data-bs-target="#GlobalNavLocal2Item5Sub_1b64fa8c-5331-4ecf-a9b2-bebf0538e3ca" aria-expanded="false" aria-controls="GlobalNavLocal2Item5Sub_1b64fa8c-5331-4ecf-a9b2-bebf0538e3ca"><span class="visually-hidden">Toggle submenu for Management</span></button></div><ul id="GlobalNavLocal2Item5Sub_1b64fa8c-5331-4ecf-a9b2-bebf0538e3ca" class="GlobalNav__Submenu collapse" aria-label="Management submenu"><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/learn/superintendent-s-compendium.htm">Superintendent's Compendium</a></li><li class="isCurrentPage"><a class="GlobalNav__Submenu__Link isCurrentPage" href="/ston/foundation-document.htm">Foundation Document</a></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/learn/lawsandpolicies.htm">Laws &amp; Policies</a></li></ul></li></ul></li><li class="has-sub"><div class="GlobalNav__SplitButton"><a class="GlobalNav__Link has-sub" href="/ston/getinvolved/index.htm">Get Involved</a><button type="button" class="GlobalNav__SubmenuToggle" data-bs-toggle="collapse" data-bs-target="#GlobalNavLocal1Item3Sub_bb86e1d2-aadd-430f-8eee-464dce961d83" aria-expanded="false" aria-controls="GlobalNavLocal1Item3Sub_bb86e1d2-aadd-430f-8eee-464dce961d83"><span class="visually-hidden">Toggle submenu for Get Involved</span></button></div><ul id="GlobalNavLocal1Item3Sub_bb86e1d2-aadd-430f-8eee-464dce961d83" class="GlobalNav__Submenu collapse" aria-label="Get Involved submenu"><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/getinvolved/partners.htm">Partners</a></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/getinvolved/volunteer.htm">Volunteer</a></li></ul></li></ul>
+<ul id="GlobalNavListLocal" class="GlobalNav__List"><li class="" style="display: none;"><a class="GlobalNav__Link" href="/ston/index.htm">Park Home</a></li><li class="has-sub"><div class="GlobalNav__SplitButton"><a class="GlobalNav__Link has-sub" href="/ston/planyourvisit/index.htm">Plan Your Visit</a><button type="button" class="GlobalNav__SubmenuToggle" data-bs-toggle="collapse" data-bs-target="#GlobalNavLocal1Item1Sub_00e85aa4-832a-49d8-bd19-c43beb874ce8" aria-expanded="false" aria-controls="GlobalNavLocal1Item1Sub_00e85aa4-832a-49d8-bd19-c43beb874ce8"><span class="visually-hidden">Toggle submenu for Plan Your Visit</span></button></div><ul id="GlobalNavLocal1Item1Sub_00e85aa4-832a-49d8-bd19-c43beb874ce8" class="GlobalNav__Submenu collapse" aria-label="Plan Your Visit submenu"><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/planyourvisit/passportprogram.htm">Passport Program</a></li><li class="has-sub"><div class="GlobalNav__SplitButton"><a class="GlobalNav__Submenu__Link has-sub" href="/ston/planyourvisit/basicinfo.htm">Basic Information</a><button type="button" class="GlobalNav__SubmenuToggle" data-bs-toggle="collapse" data-bs-target="#GlobalNavLocal2Item1Sub_f9a506ee-a454-48f3-95ad-f38732fe60e9" aria-expanded="false" aria-controls="GlobalNavLocal2Item1Sub_f9a506ee-a454-48f3-95ad-f38732fe60e9"><span class="visually-hidden">Toggle submenu for Basic Information</span></button></div><ul id="GlobalNavLocal2Item1Sub_f9a506ee-a454-48f3-95ad-f38732fe60e9" class="GlobalNav__Submenu collapse" aria-label="Basic Information submenu"><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/planyourvisit/permits.htm">Permits</a></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/planyourvisit/fees.htm">Fees &amp; Passes</a></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/planyourvisit/conditions.htm">Current Conditions</a></li></ul></li><li class="has-sub"><div class="GlobalNav__SplitButton"><a class="GlobalNav__Submenu__Link has-sub" href="/ston/planyourvisit/directions.htm">Directions &amp; Transportation</a><button type="button" class="GlobalNav__SubmenuToggle" data-bs-toggle="collapse" data-bs-target="#GlobalNavLocal2Item2Sub_243d353b-0a11-4f32-aeb8-21eee5013531" aria-expanded="false" aria-controls="GlobalNavLocal2Item2Sub_243d353b-0a11-4f32-aeb8-21eee5013531"><span class="visually-hidden">Toggle submenu for Directions &amp; Transportation</span></button></div><ul id="GlobalNavLocal2Item2Sub_243d353b-0a11-4f32-aeb8-21eee5013531" class="GlobalNav__Submenu collapse" aria-label="Directions &amp; Transportation submenu"><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/planyourvisit/maps.htm">Maps</a></li></ul></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/planyourvisit/things2do.htm">Things To Do</a></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/planyourvisit/calendar.htm">Calendar</a></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/planyourvisit/safety.htm">Safety</a></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/planyourvisit/accessibility.htm">Accessibility</a></li></ul></li><li class="has-sub"><div class="GlobalNav__SplitButton"><a class="GlobalNav__Link has-sub" href="/ston/learn/index.htm">Learn About the Park</a><button type="button" class="GlobalNav__SubmenuToggle" data-bs-toggle="collapse" data-bs-target="#GlobalNavLocal1Item2Sub_60e8baed-ed68-49c2-ba40-52f679d31082" aria-expanded="false" aria-controls="GlobalNavLocal1Item2Sub_60e8baed-ed68-49c2-ba40-52f679d31082"><span class="visually-hidden">Toggle submenu for Learn About the Park</span></button></div><ul id="GlobalNavLocal1Item2Sub_60e8baed-ed68-49c2-ba40-52f679d31082" class="GlobalNav__Submenu collapse" aria-label="Learn About the Park submenu"><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/learn/news.htm">News</a></li><li class="has-sub"><div class="GlobalNav__SplitButton"><a class="GlobalNav__Submenu__Link has-sub" href="/ston/learn/photosmultimedia/index.htm">Photos &amp; Multimedia</a><button type="button" class="GlobalNav__SubmenuToggle" data-bs-toggle="collapse" data-bs-target="#GlobalNavLocal2Item1Sub_b38a9afa-1e7f-45fe-8f16-9513795c83bf" aria-expanded="false" aria-controls="GlobalNavLocal2Item1Sub_b38a9afa-1e7f-45fe-8f16-9513795c83bf"><span class="visually-hidden">Toggle submenu for Photos &amp; Multimedia</span></button></div><ul id="GlobalNavLocal2Item1Sub_b38a9afa-1e7f-45fe-8f16-9513795c83bf" class="GlobalNav__Submenu collapse" aria-label="Photos &amp; Multimedia submenu"><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/learn/photosmultimedia/interpretative-flags.htm">Interpretative Flags</a></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/learn/photosmultimedia/virtual-fence-exhibit.htm">Virtual Fence Exhibit</a></li></ul></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/learn/historyculture.htm">History &amp; Culture</a></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/learn/education/new-index.htm">Education</a></li><li class="has-sub"><div class="GlobalNav__SplitButton"><a class="GlobalNav__Submenu__Link has-sub" href="/ston/learn/kidsyouth/index.htm">Kids &amp; Youth</a><button type="button" class="GlobalNav__SubmenuToggle" data-bs-toggle="collapse" data-bs-target="#GlobalNavLocal2Item4Sub_321b0b3e-ad1f-498e-b5b1-1f4eee122e48" aria-expanded="false" aria-controls="GlobalNavLocal2Item4Sub_321b0b3e-ad1f-498e-b5b1-1f4eee122e48"><span class="visually-hidden">Toggle submenu for Kids &amp; Youth</span></button></div><ul id="GlobalNavLocal2Item4Sub_321b0b3e-ad1f-498e-b5b1-1f4eee122e48" class="GlobalNav__Submenu collapse" aria-label="Kids &amp; Youth submenu"><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/learn/kidsyouth/activities-for-kids.htm">Activities For Kids</a></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/learn/kidsyouth/junior-ranger.htm">Junior Ranger</a></li></ul></li><li class="has-sub"><div class="GlobalNav__SplitButton"><a class="GlobalNav__Submenu__Link has-sub" href="/ston/learn/management.htm">Management</a><button type="button" class="GlobalNav__SubmenuToggle" data-bs-toggle="collapse" data-bs-target="#GlobalNavLocal2Item5Sub_ed01588d-852c-4c0d-b2d0-efbb2d15bd0d" aria-expanded="false" aria-controls="GlobalNavLocal2Item5Sub_ed01588d-852c-4c0d-b2d0-efbb2d15bd0d"><span class="visually-hidden">Toggle submenu for Management</span></button></div><ul id="GlobalNavLocal2Item5Sub_ed01588d-852c-4c0d-b2d0-efbb2d15bd0d" class="GlobalNav__Submenu collapse" aria-label="Management submenu"><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/learn/superintendent-s-compendium.htm">Superintendent's Compendium</a></li><li class="isCurrentPage"><a class="GlobalNav__Submenu__Link isCurrentPage" href="/ston/foundation-document.htm">Foundation Document</a></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/learn/lawsandpolicies.htm">Laws &amp; Policies</a></li></ul></li></ul></li><li class="has-sub"><div class="GlobalNav__SplitButton"><a class="GlobalNav__Link has-sub" href="/ston/getinvolved/index.htm">Get Involved</a><button type="button" class="GlobalNav__SubmenuToggle" data-bs-toggle="collapse" data-bs-target="#GlobalNavLocal1Item3Sub_9b47c9de-d0ec-4b9b-98c9-b75bef5e2fc1" aria-expanded="false" aria-controls="GlobalNavLocal1Item3Sub_9b47c9de-d0ec-4b9b-98c9-b75bef5e2fc1"><span class="visually-hidden">Toggle submenu for Get Involved</span></button></div><ul id="GlobalNavLocal1Item3Sub_9b47c9de-d0ec-4b9b-98c9-b75bef5e2fc1" class="GlobalNav__Submenu collapse" aria-label="Get Involved submenu"><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/getinvolved/partners.htm">Partners</a></li><li class=""><a class="GlobalNav__Submenu__Link" href="/ston/getinvolved/volunteer.htm">Volunteer</a></li></ul></li></ul>
 <h2 class="GlobalNav__SectionHeading GlobalNav__SectionHeading--blue">
 Explore the National Park Service
 </h2>
@@ -254,18 +248,31 @@ window.addEventListener('load', (event) => {
 NPS.utility.updateBannerImageFromJSON( "ston" );
 });
 </script>
-</div></div><div id="cs_control_481828" class="cs_control CS_Element_CustomCF"><div id="CS_CCF_6847274_481828"> </div></div></div></div></div></div>
-<div class="nps-park-header bg-black text-white usa-dark-background">
+<header id="HERO" class="Hero Hero--Ribbon -secondary">
+<div id="HeroBanner" class="HeroBanner ">
+<div class="HeroBanner__TitleContainer">
 <div class="container">
-<a href="/ston/index.htm" class="nps-park-header__title">
-<span class="nps-park-header__title__name">
-Stonewall
+<a href="/ston/" class="HeroBanner__Title">Stonewall</a>
+<div class="HeroBanner__Subtitle" role="presentation">
+<span class="Hero-designation">National Monument</span>
+<span class="Hero-location">
+New York
 </span>
-National Monument
-</a>
-<!--googleoff: index-->
-<div class="nps-park-header__navbar">
-<nav id="LocalNav-desktop-nav">
+</div>
+</div>
+</div>
+<div class="picturefill-background" role="img" style="background-image: url(&quot;/common/uploads/banner_image/pwr/secondary/0C34D78D-D3A3-7E58-5F3E4F8E7F81958E.jpg?mode=crop&amp;quality=90&amp;width=1200&amp;height=200&quot;); background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;" aria-label="Christopher Park, with its red brick and shaded benches, is the site of a civil rights catalyst.">
+<span data-src="/common/uploads/banner_image/pwr/secondary/0C34D78D-D3A3-7E58-5F3E4F8E7F81958E.jpg?mode=crop&amp;quality=90&amp;width=1200&amp;height=200" data-media="(min-width: 1024px)"></span>
+<span data-src="/common/uploads/banner_image/pwr/secondary/0C34D78D-D3A3-7E58-5F3E4F8E7F81958E.jpg?mode=crop&amp;quality=90&amp;width=2400&amp;height=400" data-media="(min-width: 1024px) and (min-resolution: 144dppx)"></span>
+<span data-src="/common/uploads/banner_image/pwr/secondary/0C34D78D-D3A3-7E58-5F3E4F8E7F81958E.jpg?mode=crop&amp;quality=90&amp;width=2400&amp;height=400" data-media="(min-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5)"></span>
+<span data-src="/common/uploads/banner_image/pwr/secondary/0C34D78D-D3A3-7E58-5F3E4F8E7F81958E.jpg?mode=crop&amp;quality=90&amp;width=2400&amp;height=400" data-media="(min-width: 1440px)"></span>
+</div>
+</div>
+</header>
+</div></div><div id="cs_control_481828" class="cs_control CS_Element_CustomCF"><div id="CS_CCF_6847274_481828"> </div></div></div></div></div></div>
+<div id="Park-header">
+<div class="container">
+<div class="pull-left">
 <!--googleoff: index-->
 <nav id="LocalNav-desktop-nav" role="navigation">
 <div id="cs_control_699042" class="cs_control CS_Element_CustomCF"><div id="CS_CCF_6847274_699042"><div id="cs_control_481717" class="cs_control CS_Element_Custom"><!-- _CSDPFID=6847274|6847274=_CSDPFID -->
@@ -274,8 +281,8 @@ div.ColumnMain #npsNav h2 { display:none }
 </style>
 <!-- nav -->
 <!--googleoff: index-->
-<div id="npsNav" class="C9AA2339-0B4A-67ED-414AE228947FC420">
-<ul id="LocalNav" class="sm sm-nps" data-smartmenus-id="17845644365909285"><li style="display: none;"><div class="top-lvl-item-container"><div class="top-lvl-item"><a href="/ston/index.htm">Park Home</a></div></div></li><li class="has-sub"><div class="top-lvl-item-container"><div class="top-lvl-item"><a class="has-sub has-submenu" href="/ston/planyourvisit/index.htm" id="sm-17845644365909285-1" aria-haspopup="true" aria-controls="sm-17845644365909285-2" aria-expanded="false">Plan Your Visit<span class="sub-arrow"></span></a></div></div><ul id="sm-17845644365909285-2" role="group" aria-hidden="true" aria-labelledby="sm-17845644365909285-1" aria-expanded="false"><li><a href="/ston/planyourvisit/passportprogram.htm">Passport Program</a></li><li class="has-sub"><a class="has-sub has-submenu" href="/ston/planyourvisit/basicinfo.htm" id="sm-17845644365909285-3" aria-haspopup="true" aria-controls="sm-17845644365909285-4" aria-expanded="false">Basic Information<span class="sub-arrow"></span></a><ul id="sm-17845644365909285-4" role="group" aria-hidden="true" aria-labelledby="sm-17845644365909285-3" aria-expanded="false"><li><a href="/ston/planyourvisit/permits.htm">Permits</a></li><li><a href="/ston/planyourvisit/fees.htm">Fees &amp; Passes</a></li><li><a href="/ston/planyourvisit/conditions.htm">Current Conditions</a></li></ul></li><li class="has-sub"><a class="has-sub has-submenu" href="/ston/planyourvisit/directions.htm" id="sm-17845644365909285-5" aria-haspopup="true" aria-controls="sm-17845644365909285-6" aria-expanded="false">Directions &amp; Transportation<span class="sub-arrow"></span></a><ul id="sm-17845644365909285-6" role="group" aria-hidden="true" aria-labelledby="sm-17845644365909285-5" aria-expanded="false"><li><a href="/ston/planyourvisit/maps.htm">Maps</a></li></ul></li><li><a href="/ston/planyourvisit/things2do.htm">Things To Do</a></li><li><a href="/ston/planyourvisit/calendar.htm">Calendar</a></li><li><a href="/ston/planyourvisit/safety.htm">Safety</a></li><li><a href="/ston/planyourvisit/accessibility.htm">Accessibility</a></li></ul></li><li class="has-sub"><div class="top-lvl-item-container"><div class="top-lvl-item"><a class="has-sub has-submenu" href="/ston/learn/index.htm" id="sm-17845644365909285-7" aria-haspopup="true" aria-controls="sm-17845644365909285-8" aria-expanded="false">Learn About the Park<span class="sub-arrow"></span></a></div></div><ul id="sm-17845644365909285-8" role="group" aria-hidden="true" aria-labelledby="sm-17845644365909285-7" aria-expanded="false"><li><a href="/ston/learn/news.htm">News</a></li><li class="has-sub"><a class="has-sub has-submenu" href="/ston/learn/photosmultimedia/index.htm" id="sm-17845644365909285-9" aria-haspopup="true" aria-controls="sm-17845644365909285-10" aria-expanded="false">Photos &amp; Multimedia<span class="sub-arrow"></span></a><ul id="sm-17845644365909285-10" role="group" aria-hidden="true" aria-labelledby="sm-17845644365909285-9" aria-expanded="false"><li><a href="/ston/learn/photosmultimedia/interpretative-flags.htm">Interpretative Flags</a></li><li><a href="/ston/learn/photosmultimedia/virtual-fence-exhibit.htm">Virtual Fence Exhibit</a></li></ul></li><li><a href="/ston/learn/historyculture.htm">History &amp; Culture</a></li><li><a href="/ston/learn/education/new-index.htm">Education</a></li><li class="has-sub"><a class="has-sub has-submenu" href="/ston/learn/kidsyouth/index.htm" id="sm-17845644365909285-11" aria-haspopup="true" aria-controls="sm-17845644365909285-12" aria-expanded="false">Kids &amp; Youth<span class="sub-arrow"></span></a><ul id="sm-17845644365909285-12" role="group" aria-hidden="true" aria-labelledby="sm-17845644365909285-11" aria-expanded="false"><li><a href="/ston/learn/kidsyouth/activities-for-kids.htm">Activities For Kids</a></li><li><a href="/ston/learn/kidsyouth/junior-ranger.htm">Junior Ranger</a></li></ul></li><li class="has-sub"><a class="has-sub has-submenu" href="/ston/learn/management.htm" id="sm-17845644365909285-13" aria-haspopup="true" aria-controls="sm-17845644365909285-14" aria-expanded="false">Management<span class="sub-arrow"></span></a><ul id="sm-17845644365909285-14" role="group" aria-hidden="true" aria-labelledby="sm-17845644365909285-13" aria-expanded="false"><li><a href="/ston/learn/superintendent-s-compendium.htm">Superintendent's Compendium</a></li><li class="isCurrentPage"><a class="isCurrentPage" href="/ston/foundation-document.htm">Foundation Document</a></li><li><a href="/ston/learn/lawsandpolicies.htm">Laws &amp; Policies</a></li></ul></li></ul></li><li class="has-sub"><div class="top-lvl-item-container"><div class="top-lvl-item"><a class="has-sub has-submenu" href="/ston/getinvolved/index.htm" id="sm-17845644365909285-15" aria-haspopup="true" aria-controls="sm-17845644365909285-16" aria-expanded="false">Get Involved<span class="sub-arrow"></span></a></div></div><ul id="sm-17845644365909285-16" role="group" aria-hidden="true" aria-labelledby="sm-17845644365909285-15" aria-expanded="false"><li><a href="/ston/getinvolved/partners.htm">Partners</a></li><li><a href="/ston/getinvolved/volunteer.htm">Volunteer</a></li></ul></li></ul>
+<div id="npsNav" class="309913AE-E9A6-A88E-E5B2F0EC8C072C03">
+<ul id="LocalNav" class="sm sm-nps" data-smartmenus-id="1784573376799891"><li style="display: none;"><div class="top-lvl-item-container"><div class="top-lvl-item"><a href="/ston/index.htm">Park Home</a></div></div></li><li class="has-sub"><div class="top-lvl-item-container"><div class="top-lvl-item"><a class="has-sub has-submenu" href="/ston/planyourvisit/index.htm" id="sm-1784573376799891-1" aria-haspopup="true" aria-controls="sm-1784573376799891-2" aria-expanded="false">Plan Your Visit<span class="sub-arrow"></span></a></div></div><ul id="sm-1784573376799891-2" role="group" aria-hidden="true" aria-labelledby="sm-1784573376799891-1" aria-expanded="false"><li><a href="/ston/planyourvisit/passportprogram.htm">Passport Program</a></li><li class="has-sub"><a class="has-sub has-submenu" href="/ston/planyourvisit/basicinfo.htm" id="sm-1784573376799891-3" aria-haspopup="true" aria-controls="sm-1784573376799891-4" aria-expanded="false">Basic Information<span class="sub-arrow"></span></a><ul id="sm-1784573376799891-4" role="group" aria-hidden="true" aria-labelledby="sm-1784573376799891-3" aria-expanded="false"><li><a href="/ston/planyourvisit/permits.htm">Permits</a></li><li><a href="/ston/planyourvisit/fees.htm">Fees &amp; Passes</a></li><li><a href="/ston/planyourvisit/conditions.htm">Current Conditions</a></li></ul></li><li class="has-sub"><a class="has-sub has-submenu" href="/ston/planyourvisit/directions.htm" id="sm-1784573376799891-5" aria-haspopup="true" aria-controls="sm-1784573376799891-6" aria-expanded="false">Directions &amp; Transportation<span class="sub-arrow"></span></a><ul id="sm-1784573376799891-6" role="group" aria-hidden="true" aria-labelledby="sm-1784573376799891-5" aria-expanded="false"><li><a href="/ston/planyourvisit/maps.htm">Maps</a></li></ul></li><li><a href="/ston/planyourvisit/things2do.htm">Things To Do</a></li><li><a href="/ston/planyourvisit/calendar.htm">Calendar</a></li><li><a href="/ston/planyourvisit/safety.htm">Safety</a></li><li><a href="/ston/planyourvisit/accessibility.htm">Accessibility</a></li></ul></li><li class="has-sub"><div class="top-lvl-item-container"><div class="top-lvl-item"><a class="has-sub has-submenu" href="/ston/learn/index.htm" id="sm-1784573376799891-7" aria-haspopup="true" aria-controls="sm-1784573376799891-8" aria-expanded="false">Learn About the Park<span class="sub-arrow"></span></a></div></div><ul id="sm-1784573376799891-8" role="group" aria-hidden="true" aria-labelledby="sm-1784573376799891-7" aria-expanded="false"><li><a href="/ston/learn/news.htm">News</a></li><li class="has-sub"><a class="has-sub has-submenu" href="/ston/learn/photosmultimedia/index.htm" id="sm-1784573376799891-9" aria-haspopup="true" aria-controls="sm-1784573376799891-10" aria-expanded="false">Photos &amp; Multimedia<span class="sub-arrow"></span></a><ul id="sm-1784573376799891-10" role="group" aria-hidden="true" aria-labelledby="sm-1784573376799891-9" aria-expanded="false"><li><a href="/ston/learn/photosmultimedia/interpretative-flags.htm">Interpretative Flags</a></li><li><a href="/ston/learn/photosmultimedia/virtual-fence-exhibit.htm">Virtual Fence Exhibit</a></li></ul></li><li><a href="/ston/learn/historyculture.htm">History &amp; Culture</a></li><li><a href="/ston/learn/education/new-index.htm">Education</a></li><li class="has-sub"><a class="has-sub has-submenu" href="/ston/learn/kidsyouth/index.htm" id="sm-1784573376799891-11" aria-haspopup="true" aria-controls="sm-1784573376799891-12" aria-expanded="false">Kids &amp; Youth<span class="sub-arrow"></span></a><ul id="sm-1784573376799891-12" role="group" aria-hidden="true" aria-labelledby="sm-1784573376799891-11" aria-expanded="false"><li><a href="/ston/learn/kidsyouth/activities-for-kids.htm">Activities For Kids</a></li><li><a href="/ston/learn/kidsyouth/junior-ranger.htm">Junior Ranger</a></li></ul></li><li class="has-sub"><a class="has-sub has-submenu" href="/ston/learn/management.htm" id="sm-1784573376799891-13" aria-haspopup="true" aria-controls="sm-1784573376799891-14" aria-expanded="false">Management<span class="sub-arrow"></span></a><ul id="sm-1784573376799891-14" role="group" aria-hidden="true" aria-labelledby="sm-1784573376799891-13" aria-expanded="false"><li><a href="/ston/learn/superintendent-s-compendium.htm">Superintendent's Compendium</a></li><li class="isCurrentPage"><a class="isCurrentPage" href="/ston/foundation-document.htm">Foundation Document</a></li><li><a href="/ston/learn/lawsandpolicies.htm">Laws &amp; Policies</a></li></ul></li></ul></li><li class="has-sub"><div class="top-lvl-item-container"><div class="top-lvl-item"><a class="has-sub has-submenu" href="/ston/getinvolved/index.htm" id="sm-1784573376799891-15" aria-haspopup="true" aria-controls="sm-1784573376799891-16" aria-expanded="false">Get Involved<span class="sub-arrow"></span></a></div></div><ul id="sm-1784573376799891-16" role="group" aria-hidden="true" aria-labelledby="sm-1784573376799891-15" aria-expanded="false"><li><a href="/ston/getinvolved/partners.htm">Partners</a></li><li><a href="/ston/getinvolved/volunteer.htm">Volunteer</a></li></ul></li></ul>
 </div>
 <!--googleon: index-->
 <script>
@@ -301,42 +308,58 @@ $("ul#LocalNav > li > a")
 .wrap("<div class='top-lvl-item'>");
 })(jQuery);
 </script>
-</nav>
-<nav>
-<ul id="UtilityNav" class="nps-park-header__utility-nav">
+</div>
+<!--googleoff: index-->
+<div class="Utility-nav">
+<div id="UtilityNav" class="UtilityNav" role="navigation">
+<ul>
 <li>
-<a class="usa-link" href="/ston/planyourvisit/basicinfo.htm">
-Info
+<a href="/ston/planyourvisit/basicinfo.htm">
+<span class="UtilityNav-text">Info</span>
+<svg class="usa-icon" role="presentation" focusable="false">
+<use href="/theme/assets/vendor/npsds/packages/icons/dist/sprite.svg#info"></use>
+</svg>
+</a>
+</li>
+<li class="UtilityNav__Alerts">
+<a href="/ston/planyourvisit/conditions.htm">
+<span class="UtilityNav-text">Alerts</span>
+<span class="UtilityNav-badge"></span>
+<svg class="usa-icon" role="presentation" focusable="false">
+<use href="/theme/assets/vendor/npsds/packages/icons/dist/sprite.svg#safety-caution-alerts"></use>
+</svg>
 </a>
 </li>
 <li>
-<a class="usa-link" href="/ston/planyourvisit/conditions.htm">
-Alerts
-<span class="usa-tag" id="nps-park-header-alerts-badge"></span>
+<a href="/ston/planyourvisit/maps.htm">
+<span class="UtilityNav-text">Maps</span>
+<svg class="usa-icon" role="presentation" focusable="false">
+<use href="/theme/assets/vendor/npsds/packages/icons/dist/sprite.svg#location_on"></use>
+</svg>
 </a>
 </li>
 <li>
-<a class="usa-link" href="/ston/planyourvisit/maps.htm">
-Maps
+<a href="/ston/planyourvisit/calendar.htm">
+<span class="UtilityNav-text">Calendar</span>
+<svg class="usa-icon" role="presentation" focusable="false">
+<use href="/theme/assets/vendor/npsds/packages/icons/dist/sprite.svg#event"></use>
+</svg>
 </a>
 </li>
 <li>
-<a class="usa-link" href="/ston/planyourvisit/calendar.htm">
-Calendar
-</a>
-</li>
-<li>
-<a class="usa-link" href="/ston/planyourvisit/fees.htm">
-Fees
+<a href="/ston/planyourvisit/fees.htm">
+<span class="UtilityNav-text">Fees</span>
+<svg class="usa-icon" role="presentation" focusable="false">
+<use href="/theme/assets/vendor/npsds/packages/icons/dist/sprite.svg#passes-and-fees"></use>
+</svg>
 </a>
 </li>
 </ul>
-</nav>
+</div>
 </div>
 <!--googleon: index-->
 </div>
 </div>
-
 <div id="nps-park-alert-banner" data-site-code="ston" hidden="">
 <div class="container">
 <div class="usa-alert margin-top-3">
@@ -731,10 +754,6 @@ list.innerHTML = '';
 <!--googleoff: index-->
 <footer id="GlobalFooter" class="usa-footer">
 <div class="usa-footer__primary-section">
-<picture class="usa-footer__primary-section-bg" aria-hidden="true">
-<source media="(max-width: 599px)" srcset="/common/commonspot/templates/assets/images/app-promo/app-promo-background-square.png?format=webp" type="image/webp">
-<img class="usa-footer__primary-section-bg__image" src="/common/commonspot/templates/assets/images/app-promo/app-promo-background-large.png?format=webp" alt="" loading="lazy" decoding="async">
-</picture>
 <div class="container">
 <form id="GlobalFooterSearch" class="GlobalFooter__Search usa-form usa-form--large" action="/search/" method="GET" role="search">
 <div class="position-relative">
